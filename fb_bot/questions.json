@@ -1,0 +1,52 @@
+[
+   {
+       "question":"Choose the best synonym for stone:",
+       "choices" : ["rock","grass", "branch","flower"],
+       "correctanswer": 0
+   },
+   {
+       "question":"Choose the best synonym for correspondence:",
+       "choices" : ["letters or emails","legle custody", "legal correction","redio transmissions"],
+       "correctanswer": 0
+   },
+   {
+       "question":"Choose the best synonym for concentration:",
+       "choices" : ["conservation","permission", "ambition","attention"],
+       "correctanswer": 3
+   },
+   {
+       "question":"Choose the best synonym for fail:",
+       "choices" : ["not try","not succeed", "drop","see"],
+       "correctanswer": 1
+   },
+   {
+       "question":"Choose the best synonym for harbor:",
+       "choices" : ["captain","path", "corner","port"],
+       "correctanswer": 3
+   },
+   {
+       "question":"Choose the best synonym for guideline:",
+         "choices" : ["sponsor","finish line", "rule","guide dog"],
+         "correctanswer": 2
+   },
+   {
+       "question":"Choose the best synonym for corrupt:",
+       "choices" : ["easygoing","reputable", "secreativ","dishonest"],
+       "correctanswer": 3
+   },
+   {
+       "question":"Choose the best synonym for stream:",
+       "choices" : ["small river","small airplan", "machine","small hill"],
+       "correctanswer": 0
+   },
+   {
+       "question":" Choose the best synonym for exist:",
+       "choices" : ["assert","live", "perceive","insist"],
+       "correctanswer": 1
+   },
+   {
+       "question":" Choose the best synonym for graduate:",
+       "choices" : ["move slowly","pass a test", "earn a diploma","complete a grade"],
+       "correctanswer": 1
+   }
+]
