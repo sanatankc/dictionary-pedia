@@ -10,8 +10,8 @@ import requests
 import random
 
 # graph api
-PAGE_TOKEN = 'EAAV3aM9dle4BAJ9Tik1qbQLXmZBJK3JUEM9bpG5BaIYTTc4NboTLZAEP3ZAchLMoC4ORzaAj3nxO27IbZADy1Vcg9ra1lfOhisErJT3NOlSt5I1DZAWbWq3MoxWmSFkuY9omDhuBOZB8C3xSVkUQFEkGKNjr4GmMB9ciz1ZCsAfHQZDZD'
-VERIFY_TOKEN = 'super-secret'
+PAGE_TOKEN = '<Insert Your Page Token here>'
+VERIFY_TOKEN = '<Insert Your Verify token>'
 
 GAME_STATE = False
 ANSWER_MODE = False
@@ -61,7 +61,7 @@ def send_message2(usr_id, msg):
 
 def translate_word(word):
 	if not (len(word.split(' ')) > 1):
-		url = 'https://api.pearson.com/v2/dictionaries/ldoce5/entries?headword='+ word +'&apikey=D9cmWQXuTuHgxqWxIysJbAONhdd1CyY9'
+		url = 'https://api.pearson.com/v2/dictionaries/ldoce5/entries?headword='+ word +'&apikey=<Insert Your Pearson Api key here>'
 		results = requests.get(url).json()['results']
 		try:
 			return results[0]['senses'][0]['definition'][0]
